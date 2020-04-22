@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Abel|Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+/*********************************************************************************/
+/* Global                                                                        */
+/*********************************************************************************/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0em;
+	padding: 0em;
+	background: #FFFFFF;
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+
+h1, h2,h3 {
+	margin: 0.5em;
+	padding: 0em;
+	font-family: "Work Sans", sans-serif;
+	letter-spacing: 0.035em;
+	font-size: 25px;
+	font-weight: 200;
+	line-height: 1.25;
+	color: rgb(27, 27, 27);
+	text-align: center;
+}
+
+h3 {
+	margin: 0.5em;
+	padding: 0em;
+	font-family: "Work Sans", sans-serif;
+	letter-spacing: 0.035em;
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: uppercase;
+	line-height: 1;
+	color: rgb(27, 27, 27);
+	text-align: left;
+}
+
+p {
+	box-sizing: border-box;
+	padding: 1em;
+	line-height: 170%;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30em;
+	margin-inline-end: 30em;
+	line-height: 1.5;
+	color: rgb(27, 27, 27);
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	text-align: center;
+}
+
+/* Wrapper */
+
+#wrapper {
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-right: 5em;
+	overflow: hidden;
+}
+#wrapper p{
+	margin-inline-start: 0em;
+	margin-inline-end: 0em;
+}
+
+/* Button Style */
+
+.button-style a{
+	display: inline-block;
+	margin-top: 1.25em;
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	background-color: rgb(10, 79, 57);
+	border-radius: 0px;
+	border-style: none;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 0.143em;
+	color: #FFFFFF;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}
+.button-style a:hover{
+	background-color: rgb(17, 113, 68);
+}
+* {
+	box-sizing: border-box;
+  }
+  
+  .row-style1 {
+	display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column-style1 {
+	flex: 33.33%;
+	padding: 5px;
+  }
+  .column-style2 {
+	flex: 50%;
+	padding: 10px;
+  }
+  .footer{
+	margin-inline-start: 40em;
+	margin-inline-end: 40em;  
+	margin-block-end: 1em;
+  }
+  .fa {
+	padding: 0em;
+	width: 30%;
+	text-align: center;
+	text-decoration: none;
+  }
+  
+  .fa:hover {
+	color: rgb(10, 79, 57);
+  }
+.fa-linkedin {
+	background: white;
+	color: black;
+  }
+
+  .fa-instagram {
+	background: white;
+	color: black;
+  }
+  
+  .fa-github {
+	background: white;
+	color: black;
+  }  
