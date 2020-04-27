@@ -6,12 +6,11 @@
 /* Logo */
 
 #logo {
-	overflow: hidden;
 	height: 10em;
-	text-align: center;
 }
 
 #logo h1 a {
+	text-align: center;
 	display: block;
 	padding: 1em 0em 1em 0em;
 	text-decoration: none;

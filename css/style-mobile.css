@@ -1,9 +1,3 @@
-/*
-	Untitled: A responsive HTML5 website template collect from www.moobnn.com
-	Released for free under the Creative Commons Attribution 3.0 license 
-	Visit for more great templates or follow us on Twitter @HTML5T
-*/
-
 /*********************************************************************************/
 /* Mobile (<= 480px)                                                             */
 /*********************************************************************************/
@@ -15,11 +9,6 @@
 
 #header {
 	display: none;
-}
-
-
-#mobileUI-site-titlebar {
-	background: url(images/img01.png) repeat;
 }
 
 #mobileUI-site-title {
@@ -237,7 +226,7 @@
 	color: #FFFFFF;
 }
 
-#marketing .subtitle {
+.subtitle {
 	padding-bottom: 1em;
 	font-weight: bold;
 	color: #838383;
