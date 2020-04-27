@@ -426,7 +426,7 @@
 
 				// Body
 					body	
-						.css('overflow', (_isTouch ? 'hidden' : 'visible'))
+						.css('overflow', 'visible')
 						.bind('5grid_toggleNav', function() {
 							if (mobileUI_site_nav.isOpen_5grid)
 								body.trigger('5grid_closeNav');

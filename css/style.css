@@ -68,8 +68,8 @@ p {
 }
 
 img {
+	max-height: 100%;
 	max-width: 100%;
-	height: auto;
   }
 
 /* Wrapper */
@@ -79,43 +79,30 @@ img {
 	overflow: hidden;
 }
 #wrapper p{
-	margin-inline-start: 4em;
-	margin-inline-end: 4em;
+	margin-inline-start: 2em;
+	margin-inline-end: 2em;
 }
 
 /* Button Style */
 
 .button-style a{
 	display: inline-block;
-	margin-top: 1.25em;
-	padding-right: 32px;
-	padding-left: 32px;
-	padding-bottom: 16px;
-	padding-top: 16px;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
 	background-color: rgb(10, 79, 57);
-	border-radius: 0px;
-	border-style: none;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 80%;
 	letter-spacing: 0.143em;
 	color: #FFFFFF;
-	transition-timing-function: ease-in-out;
-	transition-duration: 0.3s;
 }
 .button-style a:hover{
 	background-color: rgb(17, 113, 68);
 }
-  
-  .row-style1 {
-	display: flex;
-  }
-  
-  .row-style1 img {
-	max-height: 100%;
-	max-width: 100%;
-  }
+
 
   /* Create three equal columns that sits next to each other */
   .column-style1 {
@@ -132,13 +119,10 @@ img {
 	padding: 10px;
   }
 
-  .column-style4 {
-	flex: 20%;
-	padding: 10px;
+  .border {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-width: thin;
-	margin-top: 0px;
   }
   .footer{
 	text-align: center;
