@@ -114,6 +114,10 @@ img {
 	display: flex;
   }
   
+  .row-style1 img {
+	max-height: 100%;
+	max-width: 100%;
+  }
 
   /* Create three equal columns that sits next to each other */
   .column-style1 {
