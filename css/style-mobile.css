@@ -222,7 +222,14 @@
 #marketing .divider {
 }
 
+#marketing .subtitle {
+	margin-inline-start: 0em;
+	margin-inline-end: 0em;
+}
 
+#marketing .mbox-style .content {
+	padding: 2em 1.5em 1em 1.5em;
+}
 
 #marketing section {
 	padding: 0em 1.87em 1.87em 1.87em;
@@ -239,11 +246,6 @@
 	width: 100%;
 }
 
-#marketing .subtitle {
-	padding-bottom: 1em;
-	font-weight: bold;
-	color: #838383;
-}
 
 
 #marketing .mbox-style {
