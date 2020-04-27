@@ -151,7 +151,7 @@
 }
 
 
-#button {
+#button a{
 	display: inline-block;
 	padding-right: 5%;
 	padding-left: 5%;
