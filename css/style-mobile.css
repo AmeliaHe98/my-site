@@ -229,12 +229,14 @@
 }
 
 #marketing .title {
-	padding: 1.25em;
-	background: #181818;
-	border-radius: 5px 5px 0px 0px;
 	text-transform: none;
 	font-size: 1.25em;
-	color: #FFFFFF;
+	color: black;
+}
+
+#marketing .img {
+	display: block;
+	width: 100%;
 }
 
 #marketing .subtitle {
@@ -245,14 +247,9 @@
 
 
 #marketing .mbox-style {
-	background: #333333;
 	border-radius: 5px;
 }
 
-#marketing .mbox-style .content {
-	padding: 2em 1.5em 1em 1.5em;
-	text-shadow: 1px 1px 1px #212121;
-}
 /* Featured */
 
 #featured-area {
