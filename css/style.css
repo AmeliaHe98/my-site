@@ -160,5 +160,11 @@ img {
   }
 
   .w3-row-padding img {
-	  margin-bottom: 12px
+	  margin-bottom: 12px;
+	  transition: transform .3s;
+
 	}
+	.w3-row-padding img:hover {
+		transform: scale(1.03);
+		
+	  }

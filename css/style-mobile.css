@@ -205,9 +205,9 @@
 
 
 
-#marketing .mbox-style {
-	border-radius: 5px;
-}
+#marketing .column {
+	width: 33.33%;
+  }
 
 
 #footer-content {
