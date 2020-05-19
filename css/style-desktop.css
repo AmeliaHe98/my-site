@@ -56,3 +56,16 @@
 	color: rgb(10, 79, 57);;
 }
 
+/* Page Wrapper */
+
+#page-wrapper {
+	overflow: hidden;
+}
+
+#page {
+	padding: 6em 0em 0em 0em;
+}
+
+.homepage #page {
+	padding: 0em 0em 0em 0em;
+}
