@@ -46,13 +46,73 @@
 			</header>
 			</div>
 			
-	<p>Coming soon!</p>
+<!-- Photo Grid -->
+<div class="5grid-layout">
+	<div class="w3-row-padding w3-column-padding" style="margin-bottom:128px">
+		<div class="w3-third">
+		  <img src="images/Places/LA.JPG" style="width:100%"  onclick="onClick(this)" alt="LA 2017 March">
+		  <img src="images/Places/LA2.JPG" style="width:100%" onclick="onClick(this)" alt="LA 2017 March">
+		  <img src="images/Places/sf.JPG" style="width:100%" onclick="onClick(this)" alt="SF 2017 July">
+		  <img src="images/Places/sf2.JPG" style="width:100%" onclick="onClick(this)" alt="SF 2017 July">
+		  <img src="images/Places/yousemite.JPG" style="width:100%" onclick="onClick(this)" alt="Yosemite 2017 July">
+		  <img src="images/Places/yosemite2.JPG" style="width:100%" onclick="onClick(this)" alt="Yosemite 2017 July">
+		  <img src="images/Places/brooklyn.jpg" style="width:100%" onclick="onClick(this)" alt="Brooklyn 2019 August">
+		  <img src="images/Places/centralpark.jpg" style="width:100%" onclick="onClick(this)" alt="Central Park 2019 August">
+		  <img src="images/Places/ws.jpg" style="width:100%" onclick="onClick(this)" alt="Wall Street 2019 August">
+		  <img src="images/Places/ny.jpg" style="width:100%" onclick="onClick(this)" alt="New York 2019 August">
+		</div>
+	  
+		<div class="w3-third">
+			<img src="images/Places/japan.JPG" style="width:100%" onclick="onClick(this)" alt="Japan 2018 July">
+			<img src="images/Places/thailand.JPG" style="width:100% " onclick="onClick(this)" alt="Thailland 2016 December">
+			<img src="images/Places/thailand2.JPG" style="width:100%" onclick="onClick(this)" alt="Thailland 2016 December">
+			<img src="images/Places/hangzhou.JPG" style="width:100%" onclick="onClick(this)" alt="Hang Zhou 2016 June">
+			<img src="images/Places/nanjing.JPG" style="width:100%" onclick="onClick(this)" alt="Nan Jing 2016 June">
+			<img src="images/Places/suzhou.jpg" style="width:100%" onclick="onClick(this)" alt="Su Zhou 2019 December">
+			<img src="images/Places/bj.jpg" style="width:100%" onclick="onClick(this)" alt="Bei Jing 2019 December">
+			<img src="images/Places/bj2.jpg" style="width:100%" onclick="onClick(this)" alt="Bei Jing 2019 December">
+			<img src="images/Places/bj3.jpg" style="width:100%" onclick="onClick(this)" alt="Bei Jing 2019 December">
+			<img src="images/Places/hutong.JPG" style="width:100%" onclick="onClick(this)" alt="Bei Jing 2018 June">
+		</div>
+		<div class="w3-third">
+			<img src="images/Places/standleypark.JPG" style="width:100%" onclick="onClick(this)" alt="Stanley Park 2018 September">
+			<img src="images/Places/vancouver.JPG" style="width:100% " onclick="onClick(this)" alt="Vancouver 2017 December">
+			<img src="images/Places/wreck breach.JPG" style="width:100%" onclick="onClick(this)" alt="Wreck Beach 2018 September">
+			<img src="images/Places/downtown.jpg" style="width:100%" onclick="onClick(this)" alt="Downtown 2018 September">
+			<img src="images/Places/joffre lakes.JPG" style="width:100%" onclick="onClick(this)" alt="Joffre Lake 2019 May">
+			<img src="images/Places/jericho.JPG" style="width:100%" onclick="onClick(this)" alt="Jericho 2019 April">
+			<img src="images/Places/cherryblossom.JPG" style="width:100%" onclick="onClick(this)" alt="Vancouver 2018 April">
+			<img src="images/Places/cherryblossom2.JPG" style="width:100%" onclick="onClick(this)" alt="Vancouver 2018 April">
+			<img src="images/Places/MANITOBA.JPG" style="width:100%" onclick="onClick(this)" alt="Manitoba 2015 June">
+		</div>
+		  <!-- Modal for full size images on click-->
+		  <div id="modal01" class="w3-modal w3-white" style="padding-top:0" onclick="this.style.display='none'">
+			<span class="w3-button w3-white w3-xlarge w3-display-topright">X</span>
+			<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+			  <img id="img01" class="w3-image">
+			  <p id="caption"></p>
+			</div>
+		  </div>
 	
-	</body>
-	<div class="footer 12u">
-		<a href="https://www.linkedin.com/in/xinlinhe" class="fa fa-linkedin"></a>
-		<a href="https://github.com/AmeliaHe98" class="fa fa-github"></a>
-		<a href="https://www.instagram.com/itsnotamelia_" class="fa fa-instagram"></a>
-		<a href="https://www.youtube.com/channel/UCrtG943NQHsrXSu1ApFfa6g" class="fa fa-youtube"></a>
+	
+		</div>
 	</div>
-</html>
+		</body>
+		<div class="footer 12u">
+			<a href="https://www.linkedin.com/in/xinlinhe" class="fa fa-linkedin"></a>
+			<a href="https://github.com/AmeliaHe98" class="fa fa-github"></a>
+			<a href="https://www.instagram.com/itsnotamelia_" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCrtG943NQHsrXSu1ApFfa6g" class="fa fa-youtube"></a>
+		</div>
+	</html>
+	<script>
+	// Modal Image Gallery
+	function onClick(element) {
+	  document.getElementById("img01").src = element.src;
+	  document.getElementById("modal01").style.display = "block";
+	  var captionText = document.getElementById("caption");
+	  captionText.innerHTML = element.alt;
+	}
+	
+	
+	</script>
